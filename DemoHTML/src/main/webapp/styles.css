@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* Light grey background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 auto;
+    overflow-y: auto;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.navBar {
+	background-color: #333; /* Dark grey navbar */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.content {
+    padding: 20px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+.upload-btn, .folder-btn {
+	max-width: 150px;
+	max-height: 50px;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #007bff; /* Blue button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.view-options {
+	display: flex;
+	max-width: 500px;
+	max-height: 50px;
+    width: 100%;
+    text-align: center;
+    flex-grow: 1;
+}
+
+select {
+    width: 80%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 5px;
+}
+.storage {
+	display: flex;
+	max-width: 500px;
+	width: 100%;
+	align-items: center;
+	flex-grow: 1;
+	margin: 10px;
+}
+.storage__bar {
+   
+    
+    background-color: #e0e0e0;
+   
+    border-radius: 5px;
+    position: relative;
+    width: 70%;
+  height: 10px;
+  margin: 10px 0;
+}
+
+.storage__bar--used {
+    width: 50%;
+    height: 100%;
+    background-color: red; /* Blue progress bar */
+    border-radius: 5px;
+}
+
+.file-list {
+    background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  margin: 10px;
+  width: 100%;
+}
+
+table {
+
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    width: auto;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.detail-sidebar {
+    margin: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.account {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    
+}
+
+.details {
+	width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+     padding: 20px;
+  margin: 10px;
+}
